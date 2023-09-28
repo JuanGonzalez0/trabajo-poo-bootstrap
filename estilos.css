@@ -1,0 +1,42 @@
+#linea{
+    border-right:solid black 1px ;
+}
+
+#contenedorSalta{
+    border-bottom: solid 2px black;
+    font-size: 50px;
+    font-family: cursive;
+}
+#contenedorMendoza{
+    font-size: 50px;
+    font-family: cursive;
+    border-bottom: solid 2px black;
+}
+#contenedorNeuquen{
+    font-size: 50px;
+    font-family: cursive;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-bottom:solid black 15px;
+    border-top: solid black 15px;
+    border-left: solid black 15px;
+    border-right: solid black 15px;
+}
+.titulo {
+    font-size: 50px;
+    background-color: rgb(194, 194, 194);
+    text-align: center;
+    margin: 0%;
+    color: orange;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(166, 109, 3);
+    text-shadow: -20px 0px 7px rgb(110, 107, 107);
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
