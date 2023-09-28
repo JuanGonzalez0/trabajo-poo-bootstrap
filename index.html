@@ -8,73 +8,73 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
   <body>
-    <h1 class="titulo">Argentina</h1>
+    <h1 class="titulo">A R G N E T I N A</h1>
     <form action="mailto:gonzalez.juanet36@gmail.com" method="post" enctype="text/plain">
       <div class="table-responsive">
         <table class="table">
           <tbody>
-            <tr class="table-warning" >
-              <td id="linea">
-                  <div class="form-check">
+            <tr class="table-warning" id="lineaHorizontal">
+              <td id="lineaVertical">
+                  <div class="form-check" >
                       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                       <label class="form-check-label" for="flexRadioDefault1">                        
                   </div>
               </td>
               <td class="text-center" id="contenedorSalta">Salta</td>
-              <td><img class="img-fluid" src="/img/salta.jpg" alt=""></td>
-              <td class="text-center">
+              <td id="lineaHorizontal"><img class="img-fluid" src="/img/salta.jpg" alt=""></td>
+              <td class="text-center" id="lineaHorizontal">
                 <div class="form-check">
                   
                   <label class="form-check-label" for="flexRadioDefault1">
-                    1⁄2 pensión c/ aéreo
+                    • 1⁄2 pensión c/ aéreo
                   </label>
                 </div>
                 <div class="form-check">
                   
                   <label class="form-check-label" for="flexRadioDefault2">
-                     1⁄2 pensión c/ bus
+                     • 1⁄2 pensión c/ bus
                   </label>
                 </div>
                 <div class="form-check">
 
                   <label class="form-check-label" for="flexRadioDefault2">
-                     Desayuno s/ traslados
+                     • Desayuno s/ traslados
                   </label>
                 </div>
-                <td class="table-danger">
+                <td class="table-danger" id="lineaHorizontal">
                   <div class="form-check"><input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2"></div>
                   <div class="form-check"><input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2"></div>
                   <div class="form-check"><input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2" checked></div>
                 </td>                  
               </td>
             </tr>
-            <tr class="table-primary">
-              <td id="linea">
+            <tr class="table-primary" id="lineaHorizontal">
+              <td id="lineaVertical">
                   <div class="form-check">
                       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                       <label class="form-check-label" for="flexRadioDefault1">                        
                   </div>
               </td>
               <td class="text-center" id="contenedorMendoza">Mendoza</td>
-              <td><img class="img-fluid" src="/img/mendoza.jpg" alt=""></td>
-              <td class="text-center">
+              <td id="lineaHorizontal"><img class="img-fluid" src="/img/mendoza.jpg" alt=""></td>
+              <td class="text-center" id="lineaHorizontal">
                 <div class="form-check">
                   
                   <label class="form-check-label" for="flexRadioDefault1">
-                    1⁄2 pensión c/ aéreo
+                    • 1⁄2 pensión c/ aéreo
                   </label>
                 </div>
                 <div class="form-check">
                   <label class="form-check-label" for="flexRadioDefault2">
-                     1⁄2 pensión c/ bus
+                     • 1⁄2 pensión c/ bus
                   </label>
                 </div>
                 <div class="form-check">
                   <label class="form-check-label" for="flexRadioDefault3">
-                     Desayuno s/ traslados
+                     • Desayuno s/ traslados
                   </label>
                 </div>
-                <td class="table-danger">
+                <td class="table-danger" id="lineaHorizontal">
                   <div class="form-check"><input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2"></div>
                   <div class="form-check"><input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2"></div>
                   <div class="form-check"><input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2" checked></div>
@@ -82,7 +82,7 @@
               </td>
             </tr>
             <tr class="table-success">
-              <td id="linea">
+              <td id="lineaVertical">
                   <div class="form-check">
                       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                       <label class="form-check-label" for="flexRadioDefault1">                        
@@ -93,19 +93,19 @@
               <td class="text-center">
                   <div class="form-check">
                       <label class="form-check-label" for="flexRadioDefault1">
-                        1⁄2 pensión c/ aéreo
+                        • 1⁄2 pensión c/ aéreo
                       </label>
                     </div>
                     <div class="form-check">
                       
                       <label class="form-check-label" for="flexRadioDefault2">
-                         1⁄2 pensión c/ bus
+                         • 1⁄2 pensión c/ bus
                       </label>
                     </div>
                     <div class="form-check">
             
                       <label class="form-check-label" for="flexRadioDefault2">
-                         Desayuno s/ traslados
+                         • Desayuno s/ traslados
                       </label>
                     </div>
                     <td class="table-danger">
@@ -128,11 +128,10 @@
           <div class="mb-3 form-check">
               <label for="pago" class="form-label">Forma de pago</label> <input type="checkbox"> <label for="pago" class="form-label"> tarjeta</label> <input type="checkbox"> <label for="pago" class="form-label"> Efectivo </label>
           </div>
-          <div class ="boton">
+          <div id ="boton">
               <button type="submit" class="btn btn-primary">Enviar</button>
           </div>
       </div>
-
     </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>

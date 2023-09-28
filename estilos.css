@@ -1,6 +1,10 @@
-#linea{
-    border-right:solid black 1px ;
+#lineaVertical{
+    border-right:solid black 2px ;
 }
+#lineaHorizontal{
+    border-bottom:solid black 2px ;
+}
+
 
 #contenedorSalta{
     border-bottom: solid 2px black;
@@ -34,9 +38,8 @@ img{
     -webkit-text-stroke-color: rgb(166, 109, 3);
     text-shadow: -20px 0px 7px rgb(110, 107, 107);
 }
-.boton{
+#boton{
     display: flex;
     justify-content: center;
-    color: black;
 }
 
